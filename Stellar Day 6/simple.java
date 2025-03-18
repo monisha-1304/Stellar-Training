@@ -1,7 +1,9 @@
+import java.util.*;
 class A
 {
-    int a=10;
-    int b=5;
+    Scanner sc = new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
 }
 class B extends A {
     void add() {
